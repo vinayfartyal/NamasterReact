@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
   <body>
@@ -16,31 +17,7 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
-    <script>
-      const heading_1 = React.createElement(
-        "h1",
-        {
-          id: "heading_1",
-        },
-        "Heading 1"
-      );
-      const heading_2 = React.createElement(
-        "h2",
-        {
-          id: "Heading 2",
-        },
-        "heading_2"
-      );
-      const container = React.createElement(
-        "div",
-        {
-          id: "container",
-        },
-        [heading_1, heading_2]
-      );
-
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(container);
-    </script>
+    <script src="script.js">
+       </script>
   </body>
 </html>
